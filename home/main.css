@@ -1,0 +1,109 @@
+img{
+border:0;
+}
+a{
+border:0;
+}
+tr{
+	background:transperant;
+	color: #000000;
+}
+td{
+  background:transperant;
+}
+table{
+background:transperant;
+}
+h1{
+font-weight:blod;
+}
+
+}
+.maincontainer{
+width:875;
+}
+.lefcontaineradd{
+width:200;
+float:left;
+background:transperant;
+}
+.rightcontaineradd{
+width:200;
+float:right;
+background-color:black;
+color:white;
+overflow:auto;
+filter:alpha(opacity=80);
+-moz-opacity: 0.8;
+opacity: 0.8;
+}
+.container{
+
+height:400;
+width:465;
+background-color:transperant;
+filter:alpha(opacity=70);
+-moz-opacity: 0.7;
+opacity: 0.7;
+}
+.container_top{
+height:56px;
+background-image:url(images/blog-content-top.jpg);
+
+}
+.container_left{
+filter:alpha(opacity=70);
+-moz-opacity: 0.7;
+opacity: 0.7;
+float:left;
+background-image:url(images/blog-content-left.jpg);
+background-repeat:repeat-y;
+width:20px;
+margin:0;
+}
+.container_right{
+filter:alpha(opacity=70);
+-moz-opacity: 0.7;
+opacity: 0.7;
+float:right;
+background-image:url(images/blog-content-right.jpg);
+background-repeat:repeat-y;
+width:20px;
+margin:0;
+}
+.container_bottom{
+background-image:url(images/blog-content-bot.jpg);
+background-repeat:no-repeat;
+height:56px;
+}
+.container_body{
+background-image:url(images/blog-content-bg.jpg);
+margin:0;
+width:100%;
+}
+.accountregbox{
+border-style:dashed;
+border-width:2px;
+border-color:black;
+width:300;
+height:200;
+float:center;
+margin-left: 30px;
+margin-top: 30px;
+margin-right: 30px;
+}
+.left{
+float:left;
+}
+.right{
+float:right;
+}
+input.createacc{
+	background-image:url(images/createaccount-button.gif);
+	background-repeat:repeat;
+	border:0;
+	width:174;
+	height:46;
+	text-align:center;
+	cursor:hand;
+}

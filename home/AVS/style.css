@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-size:small;
+	font-family:Arial,Helvetica,Sans-Serif;
+	line-height:140%;
+	background:#000000 url(img/bg.jpg) repeat-x;
+	margin:0px;
+}
+
+#topBar
+{
+	background:url(img/bg-top.jpg) repeat-x;
+	height:88px;
+}
+
+#page
+{
+	width:750px;
+	margin:auto;
+}
+
+#page_content
+{
+	background:url(img/light2.jpg) repeat;
+	/*height:500px;*/
+}
+
+#page_content_wrapper
+{
+	background:url(img/border-left.gif) repeat-y;
+	/*height:500px;*/
+}
+
+#page_content_content
+{
+	background:url(img/border-right.gif) repeat-y right;
+	/*height:500px;*/
+}
+
+#page_content_padding
+{
+	margin-left:50px;
+	maring-right:56px;
+}
+
+#page_header
+{
+	background:url(img/border-top.gif) repeat-x;
+	height:46px;
+}
+
+#page_header div
+{
+	background:url(img/border-top-left.gif) no-repeat;
+	height:46px;
+}
+
+#page_header div div
+{
+	background:url(img/border-top-right.gif) no-repeat right;
+	height:46px;
+}
+
+#page_footer
+{
+	background:url(img/border-bot.gif) repeat-x;
+	height:93px;
+}
+
+#page_footer div
+{
+	background:url(img/border-bot-left.gif) no-repeat;
+	height:93px;
+}
+
+#page_footer div div
+{
+	background:url(img/border-bot-right.gif) no-repeat right;
+	height:93px;
+}
+
+#header_bar
+{
+	background:url(img/dateheader-bg.gif) repeat-x;
+	width:650px;
+	height:38px;
+	color:#FCEAC6;
+	font-family:palatino,georgia,times new roman,serif;
+	font-size:13pt;
+	vertical-align:middle;
+}
+
+#header_bar div
+{
+	background:url(img/dateheader-left.gif) no-repeat;
+	height:38px;
+}
+
+#header_bar div div
+{
+	background:url(img/dateheader-right.gif) right no-repeat;
+	height:38px;
+}
+
+#article
+{
+	background:url(img/light.jpg) repeat;
+	border-top:#000000 solid 1px;
+	border-bottom:#000000 solid 1px;
+	width:650px;
+	padding-top:2px;
+	padding-bottom:2px;
+	margin-top:5px;
+	min-height:300px;
+}
+
+h3
+{
+	color:#640909;
+	font-family:palatino,georgia,times new roman,serif;
+	font-size:13pt;
+}
+
+a:active {
+color:#C60000;
+}
+
+
+a:link {
+color:#003366;
+font-weight:bold;
+text-decoration:underline;
+}
+
+a {
+color:#003366;
+font-weight:bold;
+text-decoration:underline;
+}

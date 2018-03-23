@@ -1,0 +1,12 @@
+[02-May-2009 02:07:11] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/reds/public_html/home/side_right.php(53) : eval()'d code on line 2
+[02-May-2009 02:08:17] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/reds/public_html/home/side_right.php(53) : eval()'d code on line 2
+[02-May-2009 02:08:27] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/reds/public_html/home/side_right.php(53) : eval()'d code on line 2
+[02-May-2009 02:12:48] PHP Parse error:  syntax error, unexpected T_STRING in /home/reds/public_html/home/side_right.php(53) : eval()'d code on line 2
+[03-May-2009 15:42:42] PHP Warning:  require_once(THEMEtheme.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/reds/public_html/home/subheader.php on line 14
+[03-May-2009 15:42:42] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'THEMEtheme.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/reds/public_html/home/subheader.php on line 14
+[03-May-2009 17:04:18] PHP Parse error:  syntax error, unexpected '<' in /home/reds/public_html/home/side_right.php(53) : eval()'d code on line 1
+[04-May-2009 23:51:13] PHP Warning:  require_once(THEMEtheme.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/reds/public_html/home/subheader.php on line 14
+[04-May-2009 23:51:13] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'THEMEtheme.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/reds/public_html/home/subheader.php on line 14
+[07-May-2009 14:21:45] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server at 'reading initial communication packet', system error: 104 in /home/reds/public_html/home/game_acc.php on line 39
+[07-May-2009 14:22:53] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'redscustom.servegame.org' (4) in /home/reds/public_html/home/game_acc.php on line 39
+[07-May-2009 14:24:17] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'redscustom.servegame.org' (4) in /home/reds/public_html/home/game_acc.php on line 39

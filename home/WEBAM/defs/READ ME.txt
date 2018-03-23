@@ -1,0 +1,50 @@
+This read me is designed to assist you in setting up webam.
+All of the changes you need to make are included in one configuration file, this should make set-up easy.
+
+Open the /defs/config.php file in any text editor
+(I recommend PSPAD, it is a very nice document editing program, free. simply google if you would like to try it)
+
+1. *mysql* 
+you need to input the data necessary to connect to your database(db).
+Also specify the name of your specific db's where required.
+In cases of using only 2 db's, simply define the extra config to the db where those files are located.
+ex. (you have your characters and accounts in one db, point both defines to that db)
+
+2. *game server*
+set the info requested here. 
+$server will almost always be localhost, unless you are running webam remotely from the actual game server
+remember to input the proper port.
+
+3. *account creation*
+here you can enable or disable the options by changin true/false
+
+4. *date/time*
+input your local timezones three letter code
+
+5. *externals*
+you can name your header title under the $custom setting
+make sure links point to web addresses, if external
+further instructions for setting these are in the config file
+
+6. *layout*
+the title setting is the description of the page that appears in the tab
+you can also adjust how many 'items' to display one a single page
+
+7. *mail*
+this tut assumes you have a mailer set-up, as I don't know enough about them to help you there.
+this section is self explanatory, just input your info.
+
+8. *backup*
+you shouldn't need to edit anything here, but if you do, just follow the examples already present.
+
+9. *debug*
+nothing required here
+
+
+Now that we have all our configurations set, save and close the file.
+
+Find the SQL folder and execute the motd.sql into your account db, it must be account db to function correctly.
+
+To display online gm's, they must be set in the accounts table of your account database.
+
+

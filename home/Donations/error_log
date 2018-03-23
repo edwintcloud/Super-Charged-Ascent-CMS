@@ -1,0 +1,10 @@
+[05-May-2009 11:31:04] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server at 'reading initial communication packet', system error: 104 in /home/reds/public_html/home/Donations/index.php on line 31
+[05-May-2009 11:31:04] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'reds'@'localhost' (using password: NO) in /home/reds/public_html/home/Donations/index.php on line 32
+[05-May-2009 11:31:04] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/reds/public_html/home/Donations/index.php on line 32
+[05-May-2009 11:31:04] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'reds'@'localhost' (using password: NO) in /home/reds/public_html/home/Donations/index.php on line 33
+[05-May-2009 11:31:04] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/reds/public_html/home/Donations/index.php on line 33
+[05-May-2009 11:31:04] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/reds/public_html/home/Donations/index.php on line 35
+[05-May-2009 11:31:04] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'reds'@'localhost' (using password: NO) in /home/reds/public_html/home/Donations/index.php on line 40
+[05-May-2009 11:31:04] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/reds/public_html/home/Donations/index.php on line 40
+[05-May-2009 11:31:04] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/reds/public_html/home/Donations/index.php on line 42
+[05-May-2009 11:31:04] PHP Warning:  mysql_close(): supplied argument is not a valid MySQL-Link resource in /home/reds/public_html/home/Donations/index.php on line 51

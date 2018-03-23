@@ -1,0 +1,4 @@
+Slap all this together into one working Site.  I.E. One Directory, One Config.
+Its soooo do-able.  NU PHP is our best Friend
+
+Tek

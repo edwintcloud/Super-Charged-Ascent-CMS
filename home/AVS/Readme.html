@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Readme</title>
+</head>
+
+<body>
+<h1>Readme</h1>
+<p>Here you will find instructions on how to set up your copy of AVS.</p>
+<h3>Installation</h3>
+<ol>
+	<li>Put the folder containing AVS into your website.</li>
+	<li>In your web site's MySQL database, execute these queries:<br />
+			<textarea rows="5" cols="40">CREATE TABLE `realms` (                                  
+          `id` int(10) unsigned NOT NULL auto_increment,         
+          `name` varchar(32) default NULL,                       
+          `sqlhost` varchar(32) default NULL,                    
+          `sqluser` varchar(32) default NULL,                    
+          `sqlpass` varchar(32) default NULL,                    
+          `chardb` varchar(32) default NULL,                     
+          PRIMARY KEY  (`id`)                                    
+        ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+		CREATE TABLE `votemodules` (                             
+               `id` int(10) unsigned NOT NULL auto_increment,         
+               `name` varchar(32) default NULL,                       
+               `image` varchar(128) default NULL,                     
+               `url` varchar(128) default NULL,                       
+               PRIMARY KEY  (`id`)                                    
+             ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+			 CREATE TABLE `voterewards` (                             
+               `id` int(10) unsigned NOT NULL auto_increment,         
+               `realm` tinyint(3) unsigned default NULL,              
+               `name` varchar(32) default NULL,                       
+               `description` text,                                    
+               `itemid` int(10) unsigned default NULL,                
+               `points` tinyint(3) unsigned default NULL,             
+               PRIMARY KEY  (`id`)                                    
+             ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+			 CREATE TABLE `votes` (                        
+          `ip` varchar(16) default NULL,              
+          `account` varchar(16) default NULL,         
+          `module` tinyint(3) unsigned default NULL,  
+          `time` int(11) default NULL                 
+        ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+			 </textarea></li>
+	<li>If you also have AAPDRDS installed, it uses the same &quot;realms&quot; table.</li>
+	<li>Add a column named &quot;reward_points&quot; of type &quot;int&quot; to the accounts table in your logon database.</li>
+	<li>In the realms table, enter the name and MySQL information for each realm of your server.</li>
+	<li>In the votemodules table, enter name, vote, and image urls for each topsite your server is on.</li>
+	<li>In the voterewards table, enter the information of each reward you want to offer. The realm is the id of the realm in the realms table.
+		The itemid is the id of the item to be sent via mail. The points are the amount of points required to purchase the item.</li>
+	<li>Leave the votes table as-is.</li>
+	<li>Proceed to edit the configuration information located at the top of the index.php file.</li>
+</ol>
+<h3>Vote Pop-up</h3>
+<p>The file &quot;popup.php&quot; contains a customizeable vote pop-up that will appear every
+page visit if the user has not voted in 12 hours. You can edit any HTML between the PHP tags.
+Place a &quot;&lt;?php include(&quot;path/to/popup.php&quot;); ?&gt;&quot; somewhere on every page
+you wish the popup to appear.</p>
+<h3>Misc</h3>
+<ul>
+	<li><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png"/></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License</a>.</li>
+</ul>
+</body>
+</html>

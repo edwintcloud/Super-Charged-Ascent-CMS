@@ -1,0 +1,350 @@
+/*
+Created by noriac  - noriac@abv.bg - last updated 01-09-07 */
+
+/* The content of the posts (body of text) */
+body {
+	background-image: url('images/background.jpg');
+      background-repeat: y-repeat;
+      background-color: Black;
+	  background-position: center;
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:15px;
+	padding:0px 0px 0px 0px;
+	margin:10px;
+	scrollbar-3dlight-color:#595C62;
+	scrollbar-arrow-color:#C3C1B3;
+	scrollbar-darkshadow-color:#414350;
+	scrollbar-face-color:#34353B;
+	scrollbar-highlight-color:#707173;
+	scrollbar-shadow-color:#5s95C62;
+	scrollbar-track-color:#43464E;
+}
+
+/* General page style */
+.bodyline		{
+	background: #313131;
+	color:#D7DCE9;
+	background-image: url(images/bg_tile2.jpg);
+}
+a			{
+	color:#CEC6A4;
+	text-decoration:none;
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:hover		{color:#daff6e; text-decoration:none;}
+a.side		{color:#3662A9; text-decoration:none;font-size:11px;font-weight:bold}
+a:hover.side	{color:#daff6e; text-decoration:none;}
+a.white		{color:#BCC0C9; text-decoration:none;font-size:10px;font-weight:bold;}
+a:hover.white	{color:#9BAE75; text-decoration:none;}
+form			{margin:0px 0px 0px 0px;}
+hr			{height: 0px;}
+hr.side-hr		{height: 0px;}
+td			{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:10px;}
+pre			{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:9px;}
+.alt			{
+	color:#FFFFFF;
+}
+.white-header	{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:10px; color:#EFEFEF;background-color:#999386; 
+			padding:4px;}
+
+.cellpic		{font-size:10px;font-weight:bold; color:#DBDBDB; padding:0px 8px 0px 8px;
+			background-image:url(images/page-bg-top.gif);background-repeat:repeat-x;}
+
+.footer		{font-size:9px;font-weight:normal; color:#DBDBDB; padding:3px 8px 0px 8px;
+			background-image:url(images/page-bg-bottom.gif);background-repeat:repeat-x;}
+
+.stats		{background: none; COLOR: #669900; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.version		{
+	background: none;
+	COLOR: #0066FF;
+	FONT-SIZE: 10px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Verdana, Helvetica;
+	TEXT-DECORATION: none
+}
+.photo		{
+	background: none;
+	COLOR: purple;
+	FONT-SIZE: 10px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Verdana, Helvetica;
+	TEXT-DECORATION: none
+}
+.finfo		{
+	background: #1B1B1B;
+	COLOR: white;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Helvetica;
+	TEXT-DECORATION: none;
+	background-image: url(forum/avatar-shadow-bg.gif);
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-position: top;
+}
+.frame2 { position:absolute; background-image:url(prot-frame2.gif); background-repeat:no-repeat; width:82px;height:83px;margin-left:39px;margin-top:4px }
+.frame4 { position:absolute; background-image:url(prot-frame2.gif); background-repeat:no-repeat; width:82px;height:83px;margin-left:39px;margin-top:4px }
+.frame1 { position:absolute; background-image:url(prot-frame2.gif); background-repeat:no-repeat; width:82px;height:83px;margin-left:156px;margin-top:4px }
+.frame3 { position:absolute; background-image:url(prot-frame2.gif); background-repeat:no-repeat; width:82px;height:83px;margin-left:181px;margin-top:4px }
+.avatar {margin-left: 2px; margin-top: 12px}
+.finfoa		{
+	background: #1B1B1B;
+	COLOR: white;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Helvetica;
+	TEXT-DECORATION: none
+}
+.full-header	{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:10px; color:#EFEFEF;background-color:#999386;}
+.button		{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:10px; color:#e0b800;background-color:#464646;
+			border:1px #191928 solid;margin-top:2px;}
+	
+.textbox		{
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:10px;
+	color:#D7DCE9;
+	background-color:#6B6B6B;
+	background-image: url(images/textbox.gif);
+}
+.main-body		{
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:11px;
+	color:#D7DCE9;
+	background-color:#444444;
+	padding:3px 4px 3px 4px;
+	background-image: url(images/bg_tile.gif);
+}
+.side-body		{
+	background-image:url(images/bg-panels.jpg);
+	font-size:11px;
+	color:#CCCCCC;
+	padding:4px 4px 6px 4px;
+	filter:alpha(opacity=100);
+-moz-opacity: 0.9;
+opacity: 0.9;
+}
+.side-body2		{background-image:url(images/cellpic_bkg.gif);font-size:11px; color:#000000; padding:4px 4px 6px 4px;}
+.main-bg		{
+	background-color:#1B1B1B;
+	background-image: url(images/bg_tile2.jpg);
+}
+.border		{}
+.news-left{
+background:url(images/left.gif) left repeat-y;
+}
+.news-footer	{
+	font-size:9px;
+	font-weight:normal;
+	color:#FFFFFF;
+	background-color:#666666;
+	padding:4px 4px 4px 4px;
+	background-image: url(images/news-footer.gif);
+}
+.capmain		{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:10px;font-weight:bold; 
+			color:#B78E00; height:24px; padding:2px 2px 2px 2px;}
+
+.copyrights		{background: none; COLOR: #FFFDF0; FONT-SIZE: 10px; FONT-WEIGHT: normal; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.title 		{background: none; COLOR: #ffffff; FONT-SIZE: 11px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.block-title	{
+	BACKGROUND: none;
+	COLOR: #CCCCCC;
+	FONT-SIZE: 11px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.block-news 	{
+	BACKGROUND: none;
+	COLOR: #4784CD;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: bold;
+	text-decoration:underline;
+	vertical-align:text-top;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.head-title 	{
+	background: none;
+	COLOR: #DBDBDB;
+	FONT-SIZE: 11px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Verdana, Helvetica;
+	TEXT-DECORATION: none
+}
+.date			{background: none; COLOR: #BCC0C9; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+img			{border: 0px;}
+.capleft		{width:2px;height:20px;}
+.capright		{width:2px;height:20px;}
+.scapmain		{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:10px;font-weight:bold; color:#D7DCE9; height:19px; padding:0px 2px 0px 2px;}
+
+.tbl-border		{
+	background-color:#333333;
+}
+.tbl			{font-size:11px; padding:3px 4px 3px 4px;}
+
+.table1			{
+	font-size:11px;
+	color:#D7DCE9;
+	background-color:#000;
+	padding:4px;
+	background-image: url(images/border-bot.gif);
+	background-position: bottom;
+	bottom: 0;
+	right: 0;
+	background-repeat: repeat-x;
+}
+#table1-right 	{
+	background-image: url(images/border-bot-right.gif);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-repeat: no-repeat;
+}
+
+
+
+.tbl1			{
+	font-size:11px;
+	color:#D7DCE9;
+	background-color:#1B1B1B;
+	padding:4px;
+}
+.tbl2			{
+	font-size:11px;
+	color:#C3C1B3;
+	background-color:#1B1B1B;
+	padding:4px;
+}
+.tbl3			{
+	font-size:11px;
+	color:#ffb019;
+	background-color:#1B1B1B;
+	padding:4px;
+	background-image: url(bgthread.gif);
+}
+.tbl4			{
+	font-size:11px;
+	color:#CCCCCC;
+	background-color:#CCCCCC;
+	padding:5px;
+	background-image: url(forum/thread-topicbg.gif);
+}
+.tbl5			{
+	font-size:11px;
+	color:#CCCCCC;
+	background-color:#CCCCCC;
+	padding:6px;
+	background-image: url(forum/forumliner.gif);
+	font-weight: bold;
+}
+.tbl6			{
+	font-size:11px;
+	color:#FFFFFF;
+	background-color:#FFFFFF;
+	padding:4px 4px 4px 4px;
+	background-image: url(images/news-footer.gif);
+}
+.tbl7			{
+	font-size:11px;
+	color:#CCCCCC;
+	background-color:#CCCCCC;
+	padding:2px;
+	background-image: url(tbl7.gif);
+}
+/* Forum header*/
+.forum-caption	{
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+	background-color:#444;
+	padding:6px 4px 4px 4px;
+	background-image:url(forum/forumliner.gif);
+	background-repeat:repeat-x;
+	border-width:1px 1px 1px 1px;
+	border-color:#191928 #191928 #191928 #191928;
+}
+
+/* Quote blocks */
+.quote		{
+	color:#333333;
+	background-color:#CCCCCC;
+	padding:2px;
+	margin:0px 20px 0px 20px;
+	border:1px #666666 solid;
+}
+
+/* Voting Poll */
+.poll			{height:12px; border:1px #333 solid;}
+.comment-name	{font-weight:bold; color:#E7E4DA;}
+
+/* This is for the Shoutbox */
+.shoutboxname	{
+	font-weight:bold;
+	color:#000000;
+}
+.shoutbox		{
+	color:#FFFFFF;
+}
+.shoutboxdate	{font-size:9px; color:#333333;}
+.small		{font-size:9px; font-weight:normal;}
+.small2		{font-size:9px; font-weight:normal; color:#ADA899;}
+.side-small		{font-size:10px; font-weight:normal; color:#fff;}
+.side-label		{
+	background-color:none;
+	font-weight:normal;
+	color:#0099FF;
+	padding:2px;
+}
+
+/* This is for the Photo Gallery */
+.gallery		{padding: 16px 0px 8px 0px;}
+.gallery img	{border: 1px solid #191928; filter: gray;}
+.gallery:hover img	{border: 1px solid #add354; filter: none;}
+img.activegallery	{border: 1px solid #191928; filter: none;}
+
+.forumline		{border:1px #191928 solid;}
+.forumcat		{
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+.blizzardtop{
+width:100%;
+height:55px;
+position:absolute;
+left: 0;
+top: 0;
+background:url(images/blizzardtop_middle.gif) repeat-x;
+}
+.blizzardleft{
+background:url(images/blizzardtop_left.gif);
+width:126px;
+height:62px;
+position:absolute;
+left: 0;
+top: 0;
+}
+.blizzardright{
+background:url(images/blizzardtop_right.gif);
+width:126px;
+height:63px;
+position:absolute;
+right: 0;
+top: 0;
+}
+
+.technicaltitlebar{
+background:url(images/techsupport_title_bg.jpg) no-repeat top center;
+height:53px;
+margin-top: 51px;
+width: 100%;
+position: relative;
+background-color: #1d2939;
+/*border: 1px solid red;*/
+}
+.titlestonebar{
+background:url(images/techsupport_title_stonebar.png) repeat-x;
+width:100%;
+height:7px;
+position:absolute;
+bottom: 0;
+float: bottom;
+}
+
