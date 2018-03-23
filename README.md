@@ -7,7 +7,7 @@ Wiki: https://xp-dev.com/wiki/11296/Basicsetup
 Note: I no longer have access to xp-dev so please keep all communication on GitHub.
 
 ## Basic Instructions 
-+ There are two branches: master and alternate. The master branch is a clone of revision 19 from xp-dev and alternate is a clone of revsision 18 from xp-dev.
++ There are two branches: master and alternate. The master branch is a clone of revision 19 from xp-dev and alternate is a clone of revision 18 from xp-dev.
 + There is a README file included in each branch with specific instructions. Please be advised this a project from 2009 and is no longer in development so there may be errors or inconsistencies.
 
 ## Features of the Site
